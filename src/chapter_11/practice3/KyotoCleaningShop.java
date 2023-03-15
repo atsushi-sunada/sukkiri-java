@@ -7,7 +7,7 @@ public class KyotoCleaningShop implements  CleaningService {
 	String address;
 	String phone;
 	
-	public shirt washShurt(Shirt s) {
+	public Shirt washShirt(Shirt s) { //戻り値がクラス型数
 		return s;
 		
 	}
