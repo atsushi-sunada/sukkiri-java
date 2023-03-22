@@ -4,7 +4,7 @@ public class Task5_1 {
 	public static void main(String[] args) { 
 		introduceOneself();
 	}
-	
+	// Funatsu:字下げ文字をタブか半角スペースどちらかに揃えましょう。
 	public static void introduceOneself() {
 	    String name = "篤志";
 	    int age = 25;
