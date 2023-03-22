@@ -7,7 +7,7 @@ public class Task3_3 {
 		System.out.println("こんにちは");
 		if(isHungry == 0) {
 			System.out.println("お腹がいっぱいです");
-		} else {
+		} else {    // Funatsu:「はらぺこです」が抜けてます
 			System.out.println(food + "をいただきます");
 		}
 		System.out.println("ごちそうさまでした");
