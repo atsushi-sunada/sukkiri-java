@@ -17,6 +17,7 @@ public class Account {
 			Account a = (Account)o; //サブクラスの方にスーパークラスをキャストしているため、ダウンキャストで強制的に型変換する
 			String an1 = this.accountNumber;
 			String an2 = a.accountNumber;
+			// Funatsu: 口座番号の先頭に半角スペースが入っている場合に無視するコードが抜けています
 			if(an1.equals(an2)) {
 				return true;
 				
