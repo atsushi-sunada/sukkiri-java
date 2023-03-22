@@ -1,6 +1,7 @@
 package chapter05;
 
 public class Task5_2 {
+	// Funatsu:字下げ文字をタブか半角スペースどちらかに揃えましょう
 	public static void main(String[] args){
 	    email("java", "xxxx@xxxx", "javaの勉強中です");
 	}
