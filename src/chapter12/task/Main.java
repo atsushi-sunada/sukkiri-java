@@ -14,7 +14,7 @@ public class Main {
 		Y[] y = new Y[2];	
 		y[0]= new A();
 		y[1] = new B();
-		
+		// Funatsu: 配列に格納するまではOKです。ここからループでb()メソッドを実行するコードを書きましょう
 	}
 }
 
