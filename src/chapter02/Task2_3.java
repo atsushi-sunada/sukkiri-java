@@ -1,6 +1,7 @@
 package chapter02;
 
 public class Task2_3 {
+	// Funatsu:字下げ文字をタブか半角スペースどちらかに揃えましょう
 	public static void main(String[] args) { 
 	    System.out.println("ようこそ占いの館へ");
 	    System.out.println("あなたの名前を入力してください");
