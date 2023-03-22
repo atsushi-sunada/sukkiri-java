@@ -15,15 +15,20 @@ public class Main {
 		
 		
 		//Stringクラス
-		String s1 = "java";
-		String s2 = new String("java");
-		String s3 = "java";
 		
+		
+		//文字列を比較
 		String a = stu1.name;
 		String b = stu2.name;
 		
 		boolean result2 = a.equals(b);
 		System.out.println(result2);
+		
+		
+		
+		String s1 = "java";
+		String s2 = new String("java");
+		String s3 = "java";
 		
 		//文字列をequalsメゾットを使用して比較
 		System.out.println(s1.equals(s2));
