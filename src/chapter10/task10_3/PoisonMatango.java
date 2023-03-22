@@ -43,13 +43,14 @@ public class PoisonMatango extends Matango {
 		}
 	
 		
-				
+		// Funatsu: ちょっと無駄に行を空け過ぎですね
 		
 		
 		
 	}
 
 	
+	// Funatsu: ちょっと無駄に行を空け過ぎですね
 	
 	
 
