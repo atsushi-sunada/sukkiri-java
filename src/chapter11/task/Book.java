@@ -13,7 +13,7 @@ public class Book extends TangibleAsset {
 	public String getIsbn() {return this.isbn;}
 
 	@Override
-	public void setWeight() {
+	public void setWeight() {    // Funatsu:このメソッドは不要です。TangibleAssetのsetWeight()メソッドを継承して使いたいので。
 		// TODO 自動生成されたメソッド・スタブ
 		
 	}
