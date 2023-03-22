@@ -13,7 +13,7 @@ public class Computer extends TangibleAsset {
 	public String getMakerName() {return this.makerName;}
 
 	@Override
-	public void setWeight() {
+	public void setWeight() {    // Funatsu:　親クラスのsetWeight()メソッドがあるので不要です。
 		// TODO 自動生成されたメソッド・スタブ
 		
 	}
