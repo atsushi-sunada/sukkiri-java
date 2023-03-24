@@ -1,5 +1,7 @@
 package chapter17.task17_1;
 
+// 17章の演習1．2.3
+
 public class Main {
 	public static void main(String[] args) {
 		try {

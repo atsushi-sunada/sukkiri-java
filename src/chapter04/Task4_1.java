@@ -8,10 +8,10 @@ public class Task4_1 {
 		String [] names = new String[3];
 		
 		// 下記のような処理を追加されたのは良いですね！それぞれの値が何の変数か？がわかる表示にしてみましょう
-		System.out.println(points.length);
-		System.out.println(weghts.length);
-		System.out.println(answers.length);
-		System.out.println(names.length);
+		System.out.println("ポイントは" + points.length); 
+		System.out.println("重さは" + weghts.length);
+		System.out.println("答えの数は" + answers.length);
+		System.out.println("名簿の数は" + names.length);
 	}
 
 }
