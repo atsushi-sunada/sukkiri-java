@@ -3,7 +3,7 @@ package chapter05;
 public class Task5_4 {
 	public static void main(String[] args) {
 		double traiangl = calcTriangleArea(10.0, 5.0);
-		double circle = calcCircleArea(5);    // Funatsu:自動型変換するのでエラーにはなりませんが、引数の型と合う値を入れてあげましょう
+		double circle = calcCircleArea(5.0);    // Funatsu:自動型変換するのでエラーにはなりませんが、引数の型と合う値を入れてあげましょう
 
 		System.out.println("三角形の面積は" + traiangl);
 		System.out.println("円の面積" + circle);
