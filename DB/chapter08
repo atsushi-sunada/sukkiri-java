@@ -1,0 +1,1 @@
+select purchaseDate , avg(sales) from OJT_C009.transactions group by purchaseDate having avg(sales) >= 500;
