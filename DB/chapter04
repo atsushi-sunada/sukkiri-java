@@ -1,0 +1,1 @@
+select id,name,tel,email from OJT_C009.users;

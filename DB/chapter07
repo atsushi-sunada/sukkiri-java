@@ -1,0 +1,2 @@
+1. select * from OJT_C009.transactions where item like '%ee%';
+2. select purchaseDate, sum(sales) from OJT_C009.transactions where item like '%ee%' group by purchaseDate having sum(sales) between 500 and 1500 order by purchaseDate desc;
