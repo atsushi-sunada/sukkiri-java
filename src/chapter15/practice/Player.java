@@ -17,7 +17,7 @@ public class Player {
 		}
 		for (int i = 0; i < 8; i++) {
 			char c = name.charAt(i);
-			if (!(c >= 'A' && c <= 'z') || (c >= 'O' && c <= '9')) {
+			if (!(c >= 'A' && c <= 'z') || (c >= 'O' && c <= '9')) {    // funatsu:A〜Zの範囲の文字チェックで、大文字小文字を区別しましょう
 				return false;
 			}
 		}
