@@ -34,7 +34,7 @@ public class Cleric {
 		System.out.println(this.name + "は祈り始めた");
 		int heel = new java.util.Random().nextInt(3) + p;
 
-		if (this.mp + heel < this.Max_Mp) {
+		if (this.mp + heel < this.Max_Mp) {    // Funatsu: 不等号が惜しいですね。最大MPと同じ状況になった場合もtrueにしたいです
 			this.mp += heel;
 			System.out.println(heel + "回復しました");
 
